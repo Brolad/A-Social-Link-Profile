@@ -1,0 +1,77 @@
+*{
+    background-color: #141414;
+    color: mintcream;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.box {
+    width: 300px; /* Control the maximum width of the container */
+    background-color: #1f1f1f; /* Set the background color to white */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 10px; /* Optional: round the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    margin: 0 auto; /* Center the container */
+}
+
+.box img, .box h1, .box h4, .box p {
+    background: transparent;
+}
+
+.box img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 5rem;
+    margin-bottom: 1.8rem;
+    background: transparent;
+}
+
+.box h1 {
+    font-size: 28px;
+}
+
+.box h4 {
+    text-align: center;
+    color: #aece57;
+    margin-bottom: 1.8rem;
+}
+
+.box p {
+    font-size: 12px;
+    margin-bottom: 1.2rem;
+}
+
+.but {
+    background: transparent;
+}
+
+.but button {
+    display: block;
+  margin: 10px auto; /* Center the button and add space between them */
+  padding: 10px 20px;
+  width: 250px; /* Optional: Adjust width as needed */
+  border: none;
+  border-radius: 5px;
+  background-color: #333333; /* Adjust color as needed */
+  cursor: pointer;
+  font-weight: bold;
+  transition: .2s ease-in-out;
+}
+
+.but button:hover {
+    background-color: #c4f82a;
+    color: #141414;
+}
+
+input {
+    cursor: black;
+}
